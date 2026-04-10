@@ -70,7 +70,7 @@ const App = () => {
           variant="flat"
           size='lg'
         >
-          Animecove Reased! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://anicove.vercel.app'>🍱click</Link></Chip>
+          Anicove! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://anicove.vercel.app'>smooth streaming🍿</Link></Chip>
       </div>
       <div className='mt-4 mb-4'>
         <SearchBar setSearchResult={setSearchResult} setHomeActive={setHomeActive} />
