@@ -65,11 +65,12 @@ const App = () => {
   return (
     <div>
       <div className='flex justify-center mt-2'>
-        <Chip
+        {/*<Chip
           color='secondary'
           variant="flat"
           size='lg'
-        >Animepahe CLI Released! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://github.com/pro-mwas1234/animepahe'>latest version</Link></Chip>
+        >
+          Animepahe CLI Released! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://github.com/pro-mwas1234/animepahe'>latest version</Link></Chip>*/}
       </div>
       <div className='mt-4 mb-4'>
         <SearchBar setSearchResult={setSearchResult} setHomeActive={setHomeActive} />
