@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { EpisodeResult, FetchedEpisodes, FetchedEpisodesDlinks, SearchItem } from 'fetch/requests'
-import { BreadcrumbItem, Breadcrumbs, Button,Pagination, Spinner, useDisclosure } from '@nextui-org/react'
+import { BreadcrumbItem, Breadcrumbs, Button, Chip, Link, Pagination, Spinner, useDisclosure } from '@nextui-org/react'
 import SearchBar from './components/SearchBar'
 import SearchResultItem from './components/SearchResultItem'
 import Episode from './components/Episode'
@@ -64,13 +64,14 @@ const App = () => {
 
   return (
     <div>
-      <div className='flex justify-center mt-2'>{/*
+      <div className='flex justify-center mt-2'>
         <Chip
           color='secondary'
           variant="flat"
           size='lg'
-        >Animepahe CLI Released! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://github.com/pro-mwas1234/animepahe'>latest version</Link></Chip>
-     */} </div>
+        >
+          Animecove Reased! <Link color='secondary' underline="always" isExternal showAnchorIcon href='https://anicove.vercel.app'>🍱click</Link></Chip>
+      </div>
       <div className='mt-4 mb-4'>
         <SearchBar setSearchResult={setSearchResult} setHomeActive={setHomeActive} />
         <div className='flex justify-center mt-4'>
